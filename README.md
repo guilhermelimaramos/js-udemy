@@ -16,7 +16,10 @@ Aqui estão alguns dos tópicos cobertos:
 2. **Estruturas de Controle (if, else, switch)**
 3. **Laços de Repetição (for, while, do...while)**
 4. **Funções e Escopo**
-5. **Arrays e Objetos**
-6. **Promises e Assíncrono**
+5. **setInterval e setTimeout**
+6. **Arrays e Objetos**
+7. **Node List**
+8. **Try Catch**
+9. **Promises e Assíncrono**
 
-E dentre outras coisas 
+E entre outras coisas 
