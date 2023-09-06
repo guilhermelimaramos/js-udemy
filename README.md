@@ -15,11 +15,12 @@ Aqui estão alguns dos tópicos cobertos:
 1. **Variáveis e Tipos de Dados**
 2. **Estruturas de Controle (if, else, switch)**
 3. **Laços de Repetição (for, while, do...while)**
-4. **Funções e Escopo**
+4. **Funções (Factory, Constructor, Callback, IIFE e etc)**
 5. **setInterval e setTimeout**
 6. **Arrays e Objetos**
 7. **Node List**
 8. **Try Catch**
+9. **POO**
 9. **Promises e Assíncrono**
 
 E entre outras coisas 
