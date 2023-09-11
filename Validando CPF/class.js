@@ -14,16 +14,15 @@ class ValidCpf {
 
   generateNewCpf (cpf) {
     const cpfNoDigit = cpf.slice(0, -2)
-    const digit1 = this.generateDigit(cpfNoDigit)
-    const digit2 = this.generateDigit(cpfNoDigit + digit1)
+    const digit1 = ValidCpf.generateDigit(cpfNoDigit)
+    const digit2 = ValidCpf.generateDigit(cpfNoDigit + digit1)
 
     const newCpf = cpfNoDigit + digit1 + digit2
-    console.log(newCpf)
     return newCpf === this.cpfClean
   }
   
 
-  generateDigit(cpfNoDigit) {
+  static generateDigit(cpfNoDigit) {
     const cpfArray = Array.from(cpfNoDigit)
     let regressive = cpfArray.length + 1
 
@@ -31,8 +30,6 @@ class ValidCpf {
       acc += Number(value) * regressive--
       return acc
     }, 0)
-
-    console.log(digit)
   
     digit = 11 - (digit % 11)
     return digit > 9 ? '0' : String(digit)
@@ -52,7 +49,7 @@ class ValidCpf {
   }
 }
 
-// const validCpf = new ValidCpf('705.484.450-52')
-const validCpf = new ValidCpf('222.222.222-22') 
+const validCpf = new ValidCpf('705.484.450-52')
+// const validCpf = new ValidCpf('222.222.222-22') 
 
 console.log(validCpf.valid())
