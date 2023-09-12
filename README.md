@@ -21,6 +21,6 @@ Aqui estão alguns dos tópicos cobertos:
 7. **Node List**
 8. **Try Catch**
 9. **POO**
-9. **Promises e Assíncrono**
+10. **Assíncrono (Promises, Ajax, Fetch e Async/Await)**
 
 E entre outras coisas 
