@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"AAIAA,QAAQC,IAAI","sources":["webpack://tooling-e-es6/./src/index.js"],"sourcesContent":["//1\r\n//2\r\n//3\r\n//4\r\nconsole.log('Hello, Word!!!!')"],"names":["console","log"],"sourceRoot":""}
